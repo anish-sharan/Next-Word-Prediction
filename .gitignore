@@ -1,0 +1,76 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Python build / test
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+
+# =========================
+# ML / Model Artifacts
+# =========================
+model.pt
+*.pth
+*.onnx
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# React / Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+
+# Vite
+.vite/
+
+# =========================
+# Env files
+# =========================
+.env.local
+.env.development
+.env.production
+
+# =========================
+# Misc
+# =========================
+coverage/
+.cache/
+tmp/
